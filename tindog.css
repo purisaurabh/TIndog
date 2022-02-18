@@ -1,0 +1,188 @@
+body
+{
+    font-family:"Montserrat";
+}
+
+#title
+{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.h1
+{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+p
+{
+    color: #8f8f8f;
+}
+
+.dog
+{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.testi-img
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+h3
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+
+.navbar
+{
+    padding: 0 0 4.5rem;
+}
+
+.container-fluid1
+{
+    padding: 3% 15%;
+}
+
+.navbar-brand
+{
+    font-family: "Ubantu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+.download-btn
+{
+    margin: 5% 3% 5% 0 ;
+}
+
+.title-img
+{
+    width: 60%;
+    margin-left: 150px;
+    transform: rotate(25deg);
+}
+
+
+#features
+{
+    padding: 7% 15%;
+}
+
+.feacture-box
+{
+    text-align: center;
+}
+
+.icon
+{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover
+{
+    color: #ff4c68;
+}
+
+
+
+#testimonials
+{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#ls
+{
+    line-height: 0.9;
+}
+
+
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column
+{
+    padding: 3% 2%;
+}
+
+#iphone
+{
+    z-index: -1;
+}
+
+.social-icon
+{
+    margin:5px 10px;
+}
+
+#footer
+{
+    padding: 7% 15%;
+    text-align: center;
+}
+#cta
+{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading
+{
+    font-family:  'Mochiy Pop P One', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+@media(max-width:1028px)
+{
+    #title
+    {
+      text-align: center;  
+    }
+    .title-img
+    {
+        position: static;
+        transform: rotate(0);
+    }
+}
